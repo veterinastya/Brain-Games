@@ -11,7 +11,7 @@ def is_even(number):
     else:
         return 'no'
 
-def even_start(even):
+def even_start():
     correct_answer = is_even(number)
     question = number
     return question, correct_answer
@@ -37,6 +37,7 @@ def welcome_user():
 def main():
     greeting()
     welcome_user()
+    even_start()
 
 if __name__ == '__main__':
     main()
