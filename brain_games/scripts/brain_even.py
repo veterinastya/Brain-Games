@@ -37,7 +37,8 @@ def even_start():
         else:
             print(
             f"'{user_answer}' is wrong answer ;(. "
-            f"Correct answer was '{correct_answer}'.")
+            f"Correct answer was '{correct_answer}'. \n"
+            f"Let's try again, {user_name}!")
             return
     print('Congratulations, ' + user_name + '!')
 
