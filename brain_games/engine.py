@@ -7,7 +7,7 @@ def start(game):
     print(game.RULES)
     i = 0
     while i < 3:
-        question, correct_answer = game.game_data
+        question, correct_answer = game.game_data()
         print('Question: ' + str(question))
         user_answer = input('Your answer:')
         if user_answer == str(correct_answer):

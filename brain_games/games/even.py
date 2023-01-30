@@ -9,11 +9,12 @@ def is_even(number):
 
 
 def game_data():
-    number = random.randint(1, 100)
-    question = number 
+    number = randint(1, 100)
+    question = number
     correct_answer = is_even(question)
     if is_even(number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
+    question = number
     return question, correct_answer
