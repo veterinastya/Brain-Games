@@ -16,5 +16,4 @@ def game_data():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    question = number
     return question, correct_answer
