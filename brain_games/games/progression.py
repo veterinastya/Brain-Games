@@ -20,3 +20,4 @@ def create_progression(start, list_length, step):
     correct_answer = missing_number
     progression_list[missing_index] = '..'
     question = str(progression_list)
+    
