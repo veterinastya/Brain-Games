@@ -9,3 +9,6 @@ https://asciinema.org/a/OIyO9O6AZ3G4Uj5FwTThUkB3E
 
 #asciinema demonstating package installation, 'brain-gcd' game start and possible options of defeat and victory in the game.
 https://asciinema.org/a/VBMQQanPG1fAMzW2OmAUCJRP8
+
+#asciinema demonstating package installation, 'brain-progression' game start and possible options of defeat and victory in the game.
+https://asciinema.org/a/WJH73AEAbiATAXTU2pl3kVKXO
