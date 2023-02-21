@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/veterinastya/Brain-games/workflows/hexlet-check/badge.svg)](https://github.com/veterinastya/Brain-games/actions)
+[![Code Climate](https://codeclimate.com/github/cloudfoundry/membrane.png)](https://codeclimate.com/github/cloudfoundry/membrane)
 
 To start the Brain-games you have to do following:
 1. Clone my repository:
