@@ -2,9 +2,12 @@ from random import randint
 
 # in this game user has to answer if given number is prime
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-
+MIN_NUMBER = 1
+MAX_NUMBER = 300
 
 # function to check if number is prime
+
+
 def is_prime(number):
     if number < 2:  # numbers less than 2 cannot be prime
         return False
@@ -23,7 +26,7 @@ def is_prime(number):
 
 
 def game_data():
-    number = randint(1, 300)
+    number = randint(MIN_NUMBER, MAX_NUMBER)
     question = number
     correct_answer = is_prime(question)
     if is_prime(number):

@@ -3,12 +3,15 @@ from random import randint
 
 # in this game user has to add, subtract and multiply numbers
 RULES = 'What is the result of the expression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 arithmetic_list = ['+', '-', '*']  # list of possible operations, always random
 
 
 def game_data():
-    num1 = randint(1, 100)  # for every try we will need 2 random numbers
-    num2 = randint(1, 100)
+    # for every try we will need 2 random numbers
+    num1 = randint(MIN_NUMBER, MAX_NUMBER)
+    num2 = randint(MIN_NUMBER, MAX_NUMBER)
     operator = random.choice(arithmetic_list)  # and one random operator
     if operator == '+':
         correct_answer = num1 + num2

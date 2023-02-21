@@ -1,6 +1,7 @@
 import prompt
 
 # this is the engine that starts every game in this package
+NUMBER_OF_TRIES = 3
 
 
 def start(game):
@@ -11,7 +12,7 @@ def start(game):
     # the engine will show specific rules for every game
     print(game.RULES)
     i = 0  # counter of tries in the game
-    while i < 3:  # the game stops as soon as counter reaches 3
+    while i < NUMBER_OF_TRIES:  # the game stops as soon as counter reaches 3
         question, correct_answer = game.game_data()
         print('Question: ' + str(question))  # game asks the question
         user_answer = input('Your answer:')  # user answers
