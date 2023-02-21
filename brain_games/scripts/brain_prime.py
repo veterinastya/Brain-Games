@@ -6,5 +6,6 @@ import brain_games.engine as engine
 def main():
     engine.start(prime)
 
+
 if __name__ == '__main__':
     main()
