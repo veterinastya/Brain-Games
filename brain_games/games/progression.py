@@ -12,7 +12,7 @@ MAX_STEP = 10
 
 
 def game_data():
-    # determination of progression#s length
+    # determination of progression's length
     list_length = randint(MIN_LENGTH, MAX_LENGTH)
     # starting number of this progression
     start = randint(MIN_START, MAX_START)
@@ -20,7 +20,7 @@ def game_data():
     step = randint(MIN_STEP, MAX_STEP)
     progression_list = []  # creating a list to add progression
     stop = start + step * list_length  # determination of ending point
-    for value in range(start, stop, step):  # creatingprogression
+    for value in range(start, stop, step):  # creating progression
         progression_list.append(value)
     missing_index = randint(0, list_length - 1)  # determing hidden number
     missing_number = progression_list[missing_index]
