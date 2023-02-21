@@ -13,10 +13,11 @@ def game_data():
     stop = start + step * list_length #determination of ending point in this progression
     for value in range(start, stop, step): #progression is created in this part of code
         progression_list.append(value)
-    missing_index = randint(0, list_length - 1) #determing which number will be hidden
+    missing_index = randint(1, list_length - 1) #determing which number will be hidden
     missing_number = progression_list[missing_index]
-    progression_list[missing_index] = '..' #hiding the missing number using two dots
-    question = str(progression_list)
+    progression_str = ' '.join(map(str, progression_list))
+    progression = progression_str.replace(str(missing_number), '..') #hiding the missing number using two dots
+    question = progression
     correct_answer = str(missing_number)
     return question, correct_answer
     
