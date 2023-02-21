@@ -1,15 +1,23 @@
 from random import randint
 
 RULES = 'What number is missing in the progression?'
-
+MIN_LENGTH = 5
+MAX_LENGTH = 15
+MIN_START = 1
+MIN_STEP = 1
+MAX_START = 10
+MAX_STEP = 10
 # user is given a progression of 5-15 numbers, in which one is missing
 # user has to find the missing number
 
 
 def game_data():
-    list_length = randint(5, 15)  # determination of progression#s length
-    start = randint(1, 10)  # starting number of this progression
-    step = randint(1, 10)  # the step between numbers in this progression
+    # determination of progression#s length
+    list_length = randint(MIN_LENGTH, MAX_LENGTH)
+    # starting number of this progression
+    start = randint(MIN_START, MAX_START)
+    # the step between numbers in this progression
+    step = randint(MIN_STEP, MAX_STEP)
     progression_list = []  # creating a list to add progression
     stop = start + step * list_length  # determination of ending point
     for value in range(start, stop, step):  # creatingprogression

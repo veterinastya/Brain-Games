@@ -7,4 +7,6 @@ dist/
 coverage.xml
 .pytest_cache/
 .vim
+.vscode
+.github
 
