@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain-games is a game series of 5 adorable(author's opinion) arithmetic games that i made myself while learning how to code"
 authors = ["Настюшик <veterinastya@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/veterinastya/Brain-Games.git"
 packages = [ {include = "brain_games" } ]
 
 [tool.poetry.dependencies]
