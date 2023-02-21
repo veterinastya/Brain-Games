@@ -16,7 +16,7 @@ def game_data():
     list_length = randint(MIN_LENGTH, MAX_LENGTH)
     # starting number of this progression
     start = randint(MIN_START, MAX_START)
-    # the step between numbers in this progression
+    # step between numbers in this progression
     step = randint(MIN_STEP, MAX_STEP)
     correct_answer, question = create_progression(start, list_length, step)
     return question, correct_answer
