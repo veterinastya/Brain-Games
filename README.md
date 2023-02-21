@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/veterinastya/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/veterinastya/Brain-games/actions)
+[![Actions Status](https://github.com/veterinastya/Brain-games/workflows/hexlet-check/badge.svg)](https://github.com/veterinastya/Brain-games/actions)
 
 To start the Brain-games you have to do following:
 1. Clone my repository:
