@@ -3,7 +3,7 @@ from random import randint
 import math
 
 RULES = 'Find the greatest common divisor of given numbers.'
-number = randint(1, 100)
+#in this game user has to find the greatest common divider of two random numbers
 
 def game_data():
     num1 = randint(1, 100)

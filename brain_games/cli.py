@@ -1,20 +1,14 @@
-<<<<<<< HEAD
-def welcome_user():
-    name = input('May I have your name?')
-print('Hello, ' + {name} + '!')
-
-def main():
-    welcome_user()
-
-
-if __name__ == '__main__':
-    main()
-=======
+"""
+Start of the game
+"""
 import prompt
 
-def welcome_user():
-    print("Welcome to the Brain Games!")
-    user_name = prompt.string('May I have your name? ')
-    print(f'Hello, {user_name}!')
 
->>>>>>> refs/remotes/origin/main
+def welcome_user() -> str:
+    """
+    Greeting function
+    """
+    print("Welcome to the Brain Games!")
+    name: str = prompt.string('May I have your name? ')
+    print(f"Hello, {name}")
+    return name
