@@ -2,16 +2,16 @@
 [![Actions Status](https://github.com/veterinastya/Brain-games/workflows/hexlet-check/badge.svg)](https://github.com/veterinastya/Brain-games/actions)
 <a href="https://codeclimate.com/github/veterinastya/Brain-Games/maintainability"><img src="https://api.codeclimate.com/v1/badges/8a603aa80d6084ba2902/maintainability" /></a>
 
-Requirements:
+### Requirements:
 python >= 3.11
 prompt >= 0.4.1
 
-Description:
+### Description:
 Brain-games is a series of 5 adorable (developer's personal opinion) 
 arithmetic games that i made myself while learning how to code
 
 
-To start the Brain-games you have to do following:
+### To start the Brain-games you have to do following:
 
 1. Clone my repository:
 git clone https://github.com/veterinastya/Brain-Games.git
