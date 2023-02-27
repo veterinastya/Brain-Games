@@ -30,7 +30,14 @@ make build
 make publish
 make package-install
 ```
-
+5. After that you are ready to start any of five games using following commands:
+```
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
+```
 
 ### asciinema demonstrating package installation, 'brain-even' game start and possible options of defeat and victory in the game.
 [![asciicast](https://asciinema.org/a/MkAELP3e5mxrMR1nIMRfP6CCN.svg)](https://asciinema.org/a/MkAELP3e5mxrMR1nIMRfP6CCN)
