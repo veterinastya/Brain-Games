@@ -4,7 +4,7 @@ import prompt
 NUMBER_OF_TRIES = 3
 
 
-def start(game):
+def start_game(game):
     # Greetings, and getting user#s name to use it during the game
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name?')
@@ -13,13 +13,12 @@ def start(game):
     print(game.RULES)
     i = 0  # counter of tries in the game
     while i < NUMBER_OF_TRIES:  # the game stops as soon as counter reaches 3
-        question, correct_answer = game.game_data()
+        question, correct_answer = game.get_game()
         print('Question: ' + str(question))  # game asks the question
         user_answer = input('Your answer:')  # user answers
         if user_answer == str(correct_answer):  # if user#s answer is corect...
             print('Correct!')  # ...the game will show this message
             i += 1  # counter increasing by 1
-            continue
         else:  # in case user gave the wrong answer..
             print(
                 # the game will inform user

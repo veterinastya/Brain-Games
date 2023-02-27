@@ -11,7 +11,7 @@ MAX_STEP = 10
 # user has to find the missing number
 
 
-def game_data():
+def get_game():
     # determination of progression's length
     list_length = randint(MIN_LENGTH, MAX_LENGTH)
     # starting number of this progression

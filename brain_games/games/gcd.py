@@ -8,9 +8,9 @@ MAX_NUMBER = 100
 # the greatest common divider of two random numbers
 
 
-def game_data():
+def get_game():
     num1 = randint(MIN_NUMBER, MAX_NUMBER)
     num2 = randint(MIN_NUMBER, MAX_NUMBER)
-    question = str(num1) + ' ' + str(num2)
+    question: str = f'{num1} {num2}'
     correct_answer = math.gcd(num1, num2)
     return question, correct_answer

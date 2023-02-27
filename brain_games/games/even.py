@@ -13,10 +13,10 @@ def is_even(number):
 # and checking the remainder of the division
 
 
-def game_data():
-    question = is_even_number
+def get_game():
+    question = random.randint(MIN_NUMBER, MAX_NUMBER)
     correct_answer = is_even(question)
-    if is_even(is_even_number):
+    if is_even(question):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
